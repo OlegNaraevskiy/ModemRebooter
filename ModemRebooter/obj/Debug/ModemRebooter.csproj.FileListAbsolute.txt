@@ -1,0 +1,14 @@
+E:\Projects\ModemRebooter\ModemRebooter\bin\Debug\ModemRebooter.exe.config
+E:\Projects\ModemRebooter\ModemRebooter\bin\Debug\ModemRebooter.exe
+E:\Projects\ModemRebooter\ModemRebooter\bin\Debug\ModemRebooter.pdb
+E:\Projects\ModemRebooter\ModemRebooter\bin\Debug\ConnectChecker.dll
+E:\Projects\ModemRebooter\ModemRebooter\bin\Debug\TelnetAction.dll
+E:\Projects\ModemRebooter\ModemRebooter\bin\Debug\PrimS.Telnet.NetStandard.dll
+E:\Projects\ModemRebooter\ModemRebooter\bin\Debug\ConnectChecker.pdb
+E:\Projects\ModemRebooter\ModemRebooter\bin\Debug\TelnetAction.pdb
+E:\Projects\ModemRebooter\ModemRebooter\bin\Debug\PrimS.Telnet.NetStandard.xml
+E:\Projects\ModemRebooter\ModemRebooter\obj\Debug\ModemRebooter.csprojAssemblyReference.cache
+E:\Projects\ModemRebooter\ModemRebooter\obj\Debug\ModemRebooter.csproj.CoreCompileInputs.cache
+E:\Projects\ModemRebooter\ModemRebooter\obj\Debug\ModemRebooter.csproj.CopyComplete
+E:\Projects\ModemRebooter\ModemRebooter\obj\Debug\ModemRebooter.exe
+E:\Projects\ModemRebooter\ModemRebooter\obj\Debug\ModemRebooter.pdb

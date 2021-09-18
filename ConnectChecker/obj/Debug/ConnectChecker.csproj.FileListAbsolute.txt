@@ -1,0 +1,5 @@
+E:\Projects\ModemRebooter\ConnectChecker\bin\Debug\ConnectChecker.dll
+E:\Projects\ModemRebooter\ConnectChecker\bin\Debug\ConnectChecker.pdb
+E:\Projects\ModemRebooter\ConnectChecker\obj\Debug\ConnectChecker.csproj.CoreCompileInputs.cache
+E:\Projects\ModemRebooter\ConnectChecker\obj\Debug\ConnectChecker.dll
+E:\Projects\ModemRebooter\ConnectChecker\obj\Debug\ConnectChecker.pdb

@@ -1,0 +1,8 @@
+E:\Projects\ModemRebooter\TelnetAction\bin\Debug\TelnetAction.dll
+E:\Projects\ModemRebooter\TelnetAction\bin\Debug\TelnetAction.pdb
+E:\Projects\ModemRebooter\TelnetAction\bin\Debug\PrimS.Telnet.NetStandard.dll
+E:\Projects\ModemRebooter\TelnetAction\bin\Debug\PrimS.Telnet.NetStandard.xml
+E:\Projects\ModemRebooter\TelnetAction\obj\Debug\TelnetAction.csproj.CoreCompileInputs.cache
+E:\Projects\ModemRebooter\TelnetAction\obj\Debug\TelnetAction.csproj.CopyComplete
+E:\Projects\ModemRebooter\TelnetAction\obj\Debug\TelnetAction.dll
+E:\Projects\ModemRebooter\TelnetAction\obj\Debug\TelnetAction.pdb
