@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using ModemRebooter.Classes;
 using TelnetAction;
 using ConnectChecker;
+using ModemRebooter.Actions;
+using System.Threading.Tasks;
 
 namespace ModemRebooter
 {
@@ -15,6 +17,11 @@ namespace ModemRebooter
 				Result result = new Result();
 
 				Console.WriteLine("============== Начало работы ==============");
+
+
+				Task loadSettings = Task.Run(() => ModemSettingsLoader.LoadSettings());
+
+				loadSettings.Wait();
 
 				var che = Check.PingHost("mail.ru");
 
