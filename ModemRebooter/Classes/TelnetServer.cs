@@ -1,9 +1,9 @@
-﻿namespace ModemRebooter.TelnetAction.Classes
+﻿namespace ModemRebooter.Classes
 {
 	/// <summary>
 	/// Описание сервера
 	/// </summary>
-	public class TelnetServer 
+	public class TelnetServer
 	{
 		/// <summary>
 		/// IP-адрес сервера

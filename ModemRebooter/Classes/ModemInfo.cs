@@ -1,40 +1,23 @@
 ﻿namespace ModemRebooter.Classes
 {
 	/// <summary>
-	/// Описание сервера
+	/// Описание маршрутизатора
 	/// </summary>
 	public class ModemInfo
 	{
 		/// <summary>
-		/// IP-адрес сервера
+		/// Наименование маршуртизатора
 		/// </summary>
-		public string IpAddress { get; set; }
+		public string ModemName { get; set; }
 
 		/// <summary>
-		/// Порт сервера (по-умолчанию 23)
+		/// Данные для подключения по Telnet
 		/// </summary>
-		public int Port { get; set; }
+		public TelnetServer TelnetServer { get; set; }
 
 		/// <summary>
-		/// Timeout запроса (по-умолчанию 200ms)
+		/// Данные администратора
 		/// </summary>
-		public int TimeoutMs { get; set; }
-
 		public UserInfo AdminAccount { get; set; }
-
-		public ModemInfo()
-		{
-			IpAddress = string.Empty;
-			Port = 23;
-			TimeoutMs = 200;
-		}
-
-		public ModemInfo(string ipAddress, int port, int timeoutMs)
-		{
-			IpAddress = string.IsNullOrWhiteSpace(ipAddress) ? string.Empty : ipAddress;
-			Port = port == 0 ? 23 : port;
-			TimeoutMs = timeoutMs == 0 ? 200 : timeoutMs;
-		}
-	
 	}
 }

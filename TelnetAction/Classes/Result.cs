@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TelnetAction.Classes
+namespace ModemRebooter.TelnetAction.Classes
 {
 	/// <summary>
 	/// Результат действия

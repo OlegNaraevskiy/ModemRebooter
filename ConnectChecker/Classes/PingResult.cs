@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConnectChecker.Classes
+namespace ModemRebooter.ConnectChecker.Classes
 {
 	/// <summary>
 	/// Результат операции

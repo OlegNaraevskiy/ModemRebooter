@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using ModemRebooter.Classes;
-using TelnetAction;
-using ConnectChecker;
+using ModemRebooter.TelnetAction;
+using ModemRebooter.ConnectChecker;
 using ModemRebooter.Actions;
 using System.Threading.Tasks;
 

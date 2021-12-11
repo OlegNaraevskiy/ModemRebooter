@@ -1,12 +1,12 @@
 ﻿using PrimS.Telnet;
 using System;
 using System.Threading.Tasks;
-using TelnetAction.Classes;
+using ModemRebooter.TelnetAction.Classes;
 
 /// <summary>
 /// Взаимодействие с помощью Telnet
 /// </summary>
-namespace TelnetAction
+namespace ModemRebooter.TelnetAction
 {
 	/// <summary>
 	/// Действия Telnet

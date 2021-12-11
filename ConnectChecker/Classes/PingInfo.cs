@@ -1,4 +1,4 @@
-﻿namespace ConnectChecker.Classes
+﻿namespace ModemRebooter.ConnectChecker.Classes
 {
 	/// <summary>
 	/// Сводка по пингу

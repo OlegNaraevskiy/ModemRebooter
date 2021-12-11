@@ -46,9 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Actions\CryptoActions.cs" />
     <Compile Include="Actions\ModemSettingsLoader.cs" />
     <Compile Include="Classes\ModemInfo.cs" />
     <Compile Include="Classes\Result.cs" />
+    <Compile Include="Classes\TelnetServer.cs" />
     <Compile Include="Classes\UserInfo.cs" />
     <Compile Include="ModemRebooter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -58,13 +60,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ConnectChecker\ConnectChecker.csproj">
+    <ProjectReference Include="..\ConnectChecker\ModemRebooter.ConnectChecker.csproj">
       <Project>{f45caf7c-f1d8-410f-9a9e-185759202edb}</Project>
-      <Name>ConnectChecker</Name>
+      <Name>ModemRebooter.ConnectChecker</Name>
     </ProjectReference>
-    <ProjectReference Include="..\TelnetAction\TelnetAction.csproj">
+    <ProjectReference Include="..\TelnetAction\ModemRebooter.TelnetAction.csproj">
       <Project>{982fee79-74af-42e4-b03a-af9717a358f3}</Project>
-      <Name>TelnetAction</Name>
+      <Name>ModemRebooter.TelnetAction</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

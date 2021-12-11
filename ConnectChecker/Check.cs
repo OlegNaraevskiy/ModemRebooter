@@ -1,7 +1,7 @@
-﻿using ConnectChecker.Classes;
+﻿using ModemRebooter.ConnectChecker.Classes;
 using System.Net.NetworkInformation;
 
-namespace ConnectChecker
+namespace ModemRebooter.ConnectChecker
 {
 	public class Check
 	{

@@ -1,5 +1,5 @@
 ﻿using System;
-using ta = TelnetAction.Classes;
+using ta = ModemRebooter.TelnetAction.Classes;
 
 namespace ModemRebooter.Classes
 {
