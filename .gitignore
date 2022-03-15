@@ -59,3 +59,6 @@
 /ConnectChecker/obj/Debug/ModemRebooter.ConnectChecker.csproj.CoreCompileInputs.cache
 /ConnectChecker/obj/Debug/ModemRebooter.ConnectChecker.csproj.FileListAbsolute.txt
 /ConnectChecker/obj/Debug/ModemRebooter.ConnectChecker.csprojAssemblyReference.cache
+/ConnectChecker/obj/Debug/ModemRebooter.ConnectChecker.csproj.AssemblyReference.cache
+/ModemRebooter/obj/Debug/ModemRebooter.csproj.AssemblyReference.cache
+/TelnetAction/obj/Debug/ModemRebooter.TelnetAction.csproj.AssemblyReference.cache
