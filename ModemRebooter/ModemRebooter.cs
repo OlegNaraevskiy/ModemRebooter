@@ -1,8 +1,16 @@
-﻿using System;
+﻿/*===================================================================
+ * Copyright (c) 2022 Oleg Naraevskiy                   Date: 03.2022
+ * Version IDE: MS VS 2019
+ * Designed by: Oleg Naraevskiy / noa.oleg96@gmail.com      [03.2022]
+ *===================================================================*/
+
+using System;
 using System.Collections.Generic;
 using ModemRebooter.Classes;
-using TelnetAction;
-using ConnectChecker;
+using ModemRebooter.TelnetAction;
+using ModemRebooter.ConnectChecker;
+using ModemRebooter.Actions;
+using System.Threading.Tasks;
 
 namespace ModemRebooter
 {
@@ -15,6 +23,11 @@ namespace ModemRebooter
 				Result result = new Result();
 
 				Console.WriteLine("============== Начало работы ==============");
+
+
+				Task loadSettings = Task.Run(() => ModemSettingsLoader.LoadSettings());
+
+				loadSettings.Wait();
 
 				var che = Check.PingHost("mail.ru");
 

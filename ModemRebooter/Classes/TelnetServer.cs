@@ -4,12 +4,12 @@
  * Designed by: Oleg Naraevskiy / noa.oleg96@gmail.com      [02.2022]
  *===================================================================*/
 
-namespace ModemRebooter.TelnetAction.Classes
+namespace ModemRebooter.Classes
 {
 	/// <summary>
 	/// Описание сервера
 	/// </summary>
-	public class TelnetServer 
+	public class TelnetServer
 	{
 		/// <summary>
 		/// IP-адрес сервера

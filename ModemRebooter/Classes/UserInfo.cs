@@ -4,21 +4,29 @@
  * Designed by: Oleg Naraevskiy / noa.oleg96@gmail.com      [02.2022]
  *===================================================================*/
 
-namespace ModemRebooter.ConnectChecker.Classes
+using System;
+
+namespace ModemRebooter.Classes
 {
 	/// <summary>
-	/// Сводка по пингу
+	/// Пользователь
 	/// </summary>
-	public class PingInfo
+	public class UserInfo
 	{
 		/// <summary>
-		/// Задержка в мс
+		/// Логин
 		/// </summary>
-		public int Delay { get; set; }
+		public string Login { get; set; }
 
 		/// <summary>
-		/// Процент потерь
+		/// Пароль
 		/// </summary>
-		public int PacketLoss { get; set; }
+		public string Password { get; set; }
+
+		public UserInfo(string login, string password)
+		{
+			Login = login ?? throw new ArgumentNullException(nameof(login));
+			Password = password ?? throw new ArgumentNullException(nameof(password));
+		}
 	}
 }

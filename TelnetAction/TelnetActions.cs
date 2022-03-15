@@ -1,12 +1,18 @@
-﻿using PrimS.Telnet;
+﻿/*===================================================================
+ * Copyright (c) 2022 Oleg Naraevskiy                   Date: 02.2022
+ * Version IDE: MS VS 2019
+ * Designed by: Oleg Naraevskiy / noa.oleg96@gmail.com      [02.2022]
+ *===================================================================*/
+
+using PrimS.Telnet;
 using System;
 using System.Threading.Tasks;
-using TelnetAction.Classes;
+using ModemRebooter.TelnetAction.Classes;
 
 /// <summary>
 /// Взаимодействие с помощью Telnet
 /// </summary>
-namespace TelnetAction
+namespace ModemRebooter.TelnetAction
 {
 	/// <summary>
 	/// Действия Telnet

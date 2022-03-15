@@ -1,5 +1,11 @@
-﻿using System;
-using ta = TelnetAction.Classes;
+﻿/*===================================================================
+ * Copyright (c) 2022 Oleg Naraevskiy                   Date: 02.2022
+ * Version IDE: MS VS 2019
+ * Designed by: Oleg Naraevskiy / noa.oleg96@gmail.com      [02.2022]
+ *===================================================================*/
+
+using System;
+using ta = ModemRebooter.TelnetAction.Classes;
 
 namespace ModemRebooter.Classes
 {

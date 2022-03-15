@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -43,22 +46,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Actions\CryptoActions.cs" />
+    <Compile Include="Actions\ModemSettingsLoader.cs" />
+    <Compile Include="Classes\ModemInfo.cs" />
     <Compile Include="Classes\Result.cs" />
+    <Compile Include="Classes\TelnetServer.cs" />
+    <Compile Include="Classes\UserInfo.cs" />
     <Compile Include="ModemRebooter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ConnectChecker\ConnectChecker.csproj">
+    <ProjectReference Include="..\ConnectChecker\ModemRebooter.ConnectChecker.csproj">
       <Project>{f45caf7c-f1d8-410f-9a9e-185759202edb}</Project>
-      <Name>ConnectChecker</Name>
+      <Name>ModemRebooter.ConnectChecker</Name>
     </ProjectReference>
-    <ProjectReference Include="..\TelnetAction\TelnetAction.csproj">
+    <ProjectReference Include="..\TelnetAction\ModemRebooter.TelnetAction.csproj">
       <Project>{982fee79-74af-42e4-b03a-af9717a358f3}</Project>
-      <Name>TelnetAction</Name>
+      <Name>ModemRebooter.TelnetAction</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
